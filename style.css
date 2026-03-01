@@ -1,0 +1,38 @@
+
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+background: #f2f4f8;
+}
+
+header {
+background: #002b45;
+color: white;
+padding: 15px;
+text-align: center;
+}
+
+nav button {
+margin: 5px;
+padding: 8px 15px;
+border: none;
+background: #004c7a;
+color: white;
+cursor: pointer;
+border-radius: 4px;
+}
+
+section {
+display: none;
+padding: 20px;
+}
+
+section.active {
+display: block;
+}
+
+.slides img {
+width: 100%;
+margin-bottom: 20px;
+border: 1px solid #ccc;
+}

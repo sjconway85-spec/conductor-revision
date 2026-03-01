@@ -1,0 +1,9 @@
+
+{
+"name": "Conductor PRO Training Simulator",
+"short_name": "ConductorPRO",
+"start_url": "index.html",
+"display": "standalone",
+"background_color": "#002b45",
+"theme_color": "#002b45"
+}

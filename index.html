@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Conductor PRO Training Simulator</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="manifest" href="manifest.json">
+</head>
+<body>
+
+<header>
+<h1>Conductor PRO Training Simulator</h1>
+<nav>
+<button onclick="showTab('learn')">Learn</button>
+<button onclick="showTab('exam')">Mock Exam</button>
+<button onclick="showTab('results')">Results</button>
+</nav>
+</header>
+
+<section id="learn" class="active">
+<h2>Training Slides</h2>
+<div class="slides" id="slides-container"></div>
+</section>
+
+<section id="exam">
+<h2>100 Question Mock Exam</h2>
+<div id="exam-container">
+<p id="question"></p>
+<div id="answers"></div>
+<button onclick="nextQuestion()">Next</button>
+<p id="progress"></p>
+</div>
+</section>
+
+<section id="results">
+<h2>Results</h2>
+<p id="final-score"></p>
+</section>
+
+<script src="js/app.js"></script>
+</body>
+</html>
